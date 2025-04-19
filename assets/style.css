@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bluecolor: #0069ad;
+    --seccolor: #979797;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    height: 100vh;
+}
+
+.image-area img {
+    width: 460px;
+}
+
+.image-area .screenshot {
+    width: 250px;
+    position: absolute;
+    top: 73px;
+    left: 423px;
+}
+
+.login-area {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container {
+    width: 350px;
+    border: 1px solid #3c3c3c;
+    margin: 10px 0;
+    padding: 20px 40px;
+}
+
+.container h2 {
+    font-family: 'Script MT';
+    font-size: 2.7rem;
+    padding: 30px 0;
+}
+
+.input-field input {
+    background-color: #121212;
+    color: #fff;
+    outline: none;
+    width: 100%;
+    height: 40px;
+    margin: 4px 0;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.login-button button {
+    margin: 12px 0;
+    width: 100%;
+    height: 35px;
+    border-radius: 8px;
+    background-color: var(--bluecolor);
+    color: rgba(240, 248, 255, 0.796);
+    font-size: 1rem;
+}
+
+.login-button button:hover {
+    cursor: pointer;
+}
+
+.forgot-text {
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.signup-text,
+.get-app p {
+    font-size: 0.9em;
+    pointer-events: none;
+}
+
+.signup-text a {
+    pointer-events: visible;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--bluecolor);
+}
+
+.get-app span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.get-app span a img {
+    margin: 10px 0;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li a {
+    text-decoration: none;
+    margin: 0 6px;
+    color: var(--seccolor);
+    font-size: 0.81em;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.language-selector {
+    background-color: #000;
+}
+
+.language-selector select {
+    background-color: transparent;
+    color: var(--seccolor);
+    outline: none;
+    border: none;
+    font-size: 0.8em;
+}
+
+.copyright-text {
+    color: var(--seccolor);
+    pointer-events: none;
+    font-size: 0.9em;
+}
